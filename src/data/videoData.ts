@@ -1,0 +1,102 @@
+import { VideoGuide } from '../types';
+
+export const VIDEO_GUIDES: VideoGuide[] = [
+  {
+    id: 'vid-1',
+    titleEn: 'Preparation of Jeevanu Jal / Jeevamrit in 200L Drum',
+    titleHi: '200 लीटर ड्रम में जीवाणु जल / जीवामृत तैयार करने की प्रामाणिक विधि',
+    category: 'formulations',
+    categoryLabelEn: 'Formulation Preparation',
+    categoryLabelHi: 'रसायन निर्माण विधि',
+    duration: '14:20',
+    youtubeId: '3u9-rI6O7oU',
+    instructorEn: 'National Centre for Organic & Natural Farming (NCONF)',
+    instructorHi: 'राष्ट्रीय जैविक एवं प्राकृतिक कृषि केंद्र',
+    descriptionEn: 'Step-by-step masterclass demonstrating the correct proportion of indigenous cow dung, gomutra, pulse flour, and jaggery, clockwise stirring technique, and fermentation signs.',
+    descriptionHi: 'देशी गाय के गोबर, गोमूत्र, बेसन और गुड़ के सही अनुपात, क्लॉकवाइज हिलाने की विधि और किण्वन के लक्षणों का सजीव प्रदर्शन।'
+  },
+  {
+    id: 'vid-2',
+    titleEn: 'Preparation of Kadva Rasayan (Botanical Pest Deterrent)',
+    titleHi: 'कड़वा रसायन एवं दशपर्णी अर्क निर्माण की वैज्ञानिक विधि',
+    category: 'formulations',
+    categoryLabelEn: 'Formulation Preparation',
+    categoryLabelHi: 'रसायन निर्माण विधि',
+    duration: '18:45',
+    youtubeId: 'W_7Gj78C3xQ',
+    instructorEn: 'Subhash Palekar Krishi Master Trainer',
+    instructorHi: 'प्राकृतिक कृषि मास्टर प्रशिक्षक',
+    descriptionEn: 'How to select 5 bitter and pungent leaves that animals avoid, extract their alkaloids with cow urine, and formulate a safe broad-spectrum pest repellent.',
+    descriptionHi: 'पशुओं द्वारा न खाए जाने वाले 5 कड़वे पत्तों का चयन, गोमूत्र में निष्कर्षण और बिना जहरीले रसायनों के संपूर्ण फसल रक्षा।'
+  },
+  {
+    id: 'vid-3',
+    titleEn: 'Copper Buttermilk (Khatta Rasayan) for Blight & Fungal Control',
+    titleHi: 'खट्टा रसायन (ताम्र छाछ) द्वारा फफूंद व झुलसा नियंत्रण',
+    category: 'formulations',
+    categoryLabelEn: 'Formulation Preparation',
+    categoryLabelHi: 'रसायन निर्माण विधि',
+    duration: '11:15',
+    youtubeId: '7Q3Z0r7v8V4',
+    instructorEn: 'ICAR - Indian Institute of Farming Systems Research',
+    instructorHi: 'भारतीय कृषि प्रणाली अनुसंधान संस्थान (ICAR)',
+    descriptionEn: 'Scientific demonstration of copper reaction in aged sour cow buttermilk, copper-lactate complex formation, and application dosage on vegetables and cereals.',
+    descriptionHi: 'खट्टी छाछ में तांबे की प्रतिक्रिया, कॉपर लैक्टेट बनने की पहचान और आलू, टमाटर, गेहूं पर फफूंद रोकने हेतु सही मात्रा।'
+  },
+  {
+    id: 'vid-4',
+    titleEn: 'The Science of Waaphasa: Slashing Irrigation Water by 50%',
+    titleHi: 'वाफसा (Waaphasa) की वैज्ञानिकता: 50% पानी की बचत',
+    category: 'techniques',
+    categoryLabelEn: 'Natural Farming Techniques',
+    categoryLabelHi: 'प्राकृतिक कृषि तकनीक',
+    duration: '16:30',
+    youtubeId: 'pQ7Y4oG8a9k',
+    instructorEn: 'Padma Shri Subhash Palekar Lecture Series',
+    instructorHi: 'पद्मश्री सुभाष पालेकर व्याख्यान माला',
+    descriptionEn: 'Explaining why roots need air and vapor rather than standing floodwater, furrow management, and how soil porosity prevents root hypoxia.',
+    descriptionHi: 'जड़ों को पानी नहीं बल्कि हवा और वाष्प चाहिए। बाढ़ सिंचाई के नुकसान और नाली-मेड़ पद्धति से फसलों की 3 गुना तेज वृद्धि।'
+  },
+  {
+    id: 'vid-5',
+    titleEn: 'Aachhadan (Organic Mulching): Building Subterranean Humus',
+    titleHi: 'आच्छादन (मल्चिंग): धरती का वस्त्र और केंचुओं का घर',
+    category: 'soil',
+    categoryLabelEn: 'Soil Health',
+    categoryLabelHi: 'मृदा स्वास्थ्य',
+    duration: '13:50',
+    youtubeId: 'K9Z6x4P1j2o',
+    instructorEn: 'Dr. Vandana Shiva & Navdanya Agro-Ecology Farm',
+    instructorHi: 'डॉ. वंदना शिवा एवं नवधान्य शोध केंद्र',
+    descriptionEn: 'Demonstrating how straw and biomass mulching shields soil from thermal shock, traps dew moisture, and creates an ideal darkness for earthworm activation.',
+    descriptionHi: 'खेत पर सूखी घास व पराली की मल्चिंग से तापमान का नियंत्रण, ओस की बूंदों का संरक्षण और जमीन के नीचे केंचुओं की सक्रियता।'
+  },
+  {
+    id: 'vid-6',
+    titleEn: 'Multi-Tier Agro-Forestry & Spatial Geometry (Akash & Agni)',
+    titleHi: 'पंचमहाभूत कृषि: बहुमंजिला खेती एवं सूर्य प्रकाश का 100% दोहन',
+    category: 'crop',
+    categoryLabelEn: 'Crop Management',
+    categoryLabelHi: 'फसल प्रबंधन',
+    duration: '22:10',
+    youtubeId: 'M8vX3T7_1wE',
+    instructorEn: 'State Natural Farming Mission Directorate',
+    instructorHi: 'राज्य प्राकृतिक कृषि मिशन निदेशालय',
+    descriptionEn: 'How to arrange tall fruit trees, bush crops, and ground legumes so that all five Mahabhutas work in synchrony across the four vertical strata.',
+    descriptionHi: 'चार मंजिलों में फसलों का नियोजन ताकि सूर्य की एक भी किरण व्यर्थ न जाए और खेत का हर इंच साल भर मुनाफा दे।'
+  },
+  {
+    id: 'vid-7',
+    titleEn: 'Interview with Leading Agronomists on Chemical Detoxification',
+    titleHi: 'वरिष्ठ कृषि वैज्ञानिकों के साथ संवाद: रासायनिक जहर से मुक्ति',
+    category: 'experts',
+    categoryLabelEn: 'Expert Interviews',
+    categoryLabelHi: 'विशेषज्ञ साक्षात्कार',
+    duration: '27:40',
+    youtubeId: 'd7X1m8V5o3P',
+    instructorEn: 'Prof. Ramesh Chand, Member NITI Aayog (Agriculture)',
+    instructorHi: 'प्रो. रमेश चंद, सदस्य नीति आयोग (कृषि)',
+    descriptionEn: 'Economic viability, input cost reduction, health benefits, and transition pathways for farmers shifting from chemical fertilizers to natural farming.',
+    descriptionHi: 'लागत में 70% तक की कमी, रासायनिक अवशेष-मुक्त पौष्टिक अन्न, और छोटे किसानों की आमदनी बढ़ाने पर राष्ट्रीय परिचर्चा।'
+  }
+];

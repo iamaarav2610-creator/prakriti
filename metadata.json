@@ -1,0 +1,6 @@
+{
+  "name": "PRAKRITI",
+  "description": "Digital Knowledge Hub for Natural Farming - Preserving Traditional Wisdom, Empowering Modern Farmers",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
